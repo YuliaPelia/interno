@@ -20,7 +20,73 @@
         color: #292F36;
     }
     &__blocks {
+        margin-top: 50px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
+    &__block {
+        height: 289px;
+        width: 356px;
+        box-sizing: border-box;
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 30px;
+    }
+    &__frame {
+        padding: 50px 35px 45px 30px;
+    }
+    &__style {
+        display: flex;
+        justify-content: space-around;
+        img {
+            width: 77px;
+            height: 77px;
+        }
+        h3 {
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-size: 25px;
+            line-height: 38px;
+            /* identical to box height, or 150% */
+
+            letter-spacing: 0.22px;
+
+            color: #292F36;
+        }
+        h4 {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height, or 150% */
+
+            letter-spacing: 0.22px;
+
+            color: #4D5053;
+        }
+
+    }
+    &__from {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__frame {
+        p {
+            margin-top: 25px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 150% */
+    
+            letter-spacing: 0.22px;
+    
+            color: #4D5053;
+        }
+    }
+
 }

@@ -141,8 +141,8 @@ a:hover {
   width: 50%;
   height: 100%;
   border-radius: 18px;
-  background: #292F36;
-  border: 2px solid #292F36;
+  background: rgba(41, 47, 54, 0.0196078431);
+  border: 2px solid rgba(41, 47, 54, 0.0196078431);
   position: absolute;
   top: 0;
   left: 0;
@@ -234,10 +234,78 @@ a:hover {
   color: #292F36;
 }
 .people__blocks {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.people__block {
+  height: 289px;
+  width: 356px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+}
+.people__frame {
+  padding: 50px 35px 45px 30px;
+}
+.people__style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.people__style img {
+  width: 77px;
+  height: 77px;
+}
+.people__style h3 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.22px;
+  color: #292F36;
+}
+.people__style h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+.people__from {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.people__frame p {
+  margin-top: 25px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  letter-spacing: 0.22px;
+  color: #4D5053;
 }/*# sourceMappingURL=index.css.map */
