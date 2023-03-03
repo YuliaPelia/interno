@@ -1,0 +1,26 @@
+.people {
+    min-height: 675px;
+    margin-top: 100px;
+    &__background {
+        background-color: #F4F0EC;
+        border-radius: 50px;
+        padding: 100px 0 120px 0;
+
+    }
+    h2 {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-size: 45px;
+        line-height: 58px;
+        /* identical to box height, or 130% */
+
+        text-align: center;
+        letter-spacing: 0.22px;
+
+        color: #292F36;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+}
