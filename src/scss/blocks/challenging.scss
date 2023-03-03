@@ -1,0 +1,24 @@
+.challenging {
+  min-height: 600px;
+  padding: 100px 0 100px 0;
+  &__blocks {
+    display: flex;
+    justify-content: space-between;
+    &_first {
+      display: flex;
+      flex-direction: column;
+
+    }
+    &_second {
+
+    }
+  }
+}
+
+
+.challenging__block_second {
+  img {
+    width: 592px;
+    height: 635px;
+  }
+}
