@@ -154,5 +154,6 @@ a:hover {
 }
 
 .about {
+  min-height: 400px;
   padding: 100px 0 100px 0;
 }/*# sourceMappingURL=index.css.map */
