@@ -1,5 +1,63 @@
 .about {
     min-height: 400px;
     padding: 100px 0 100px 0;
-    
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+    }    
+    &__block {
+        min-height: 395px;
+        width: 400px;
+        h2 {
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-size: 25px;
+            line-height: 39px;
+            /* identical to box height, or 156% */
+
+            text-align: center;
+            letter-spacing: 0.22px;
+
+            color: #292F36;
+        }
+        p {
+            margin-top: 17px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            /* or 150% */
+
+            text-align: center;
+            letter-spacing: 0.22px;
+
+            color: #4D5053;
+        }
+        figure {
+            margin-top: 48px;
+            text-align: center;
+            img {
+                width: 30px;
+                height: 13px;
+            }
+        }
+        a {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+            letter-spacing: 0.36px;
+
+            color: #4D5053;
+
+        }
+        a:hover {
+            color: #CDA274;
+        }
+    }
 }
