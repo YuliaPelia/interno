@@ -4,10 +4,11 @@
     &__blocks {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }    
     &__block {
         min-height: 395px;
-        width: 400px;
+        width: 300px;
         h2 {
             font-family: 'DM Serif Display';
             font-style: normal;

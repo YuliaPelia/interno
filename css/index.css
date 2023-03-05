@@ -18,7 +18,7 @@
 }
 
 header {
-  padding: 20px 0 100px 0;
+  padding: 20px 0 30px 0;
   min-height: 62px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,6 +26,9 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 img {
@@ -79,7 +82,7 @@ a:hover {
 .promo {
   min-height: 831px;
   background: url(../img/promo.png) center 50%/cover no-repeat;
-  padding: 195px 0 260px 0;
+  padding: 215px 0 260px 0;
 }
 .promo__header {
   font-family: "DM Serif Display";
@@ -164,10 +167,12 @@ a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .about__block {
   min-height: 395px;
-  width: 400px;
+  width: 300px;
 }
 .about__block h2 {
   font-family: "DM Serif Display";
@@ -240,6 +245,8 @@ a:hover {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .people__block {
   height: 289px;
