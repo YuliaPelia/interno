@@ -1,7 +1,7 @@
 .promo {
     min-height: 831px;
     background: url(../img/promo.png) center 50%/cover no-repeat;
-    padding: 195px 0 260px 0;
+    padding: 215px 0 260px 0;
 
     &__header {
         font-family: 'DM Serif Display';
@@ -52,6 +52,7 @@
             color: #FFFFFF;
         }
         img {
+            height: 30px;
             z-index: 1;
         }
     }
@@ -64,8 +65,8 @@
 		width: 50%;
 		height: 100%;
         border-radius: 18px;
-        background: #292F36;
-        border: 2px solid #292F36;
+        background: #292f3605;
+        border: 2px solid #292f3605;
 		position: absolute;
 		top: 0;
 		left: 0;
