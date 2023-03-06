@@ -1,0 +1,74 @@
+.challenging {
+  min-height: 600px;
+  padding: 100px 0 100px 0;
+  &__blocks {
+    display: flex;
+    justify-content: space-between;
+  &__block-1 {
+    display: flex;
+    flex-direction: column;
+    }
+  }
+  &__title {
+    margin-top: 14px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+  }
+  &__story {
+    margin-top: 40px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+  }
+  &__block-3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 592px;
+      height: 635px;
+    }
+  }
+  &__frame {
+    display: flex;
+    margin: 40px 0 50px 0;
+    &_call {
+      img {
+        width: 93px;
+        height: 93px;
+      }
+    }
+    &_info {
+      margin: 10px 0px 10px 20px;
+    }
+    &_number {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0.22px;
+      color: #4D5053;
+    }
+    &_text {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0.22px;
+      color: #4D5053;
+    }
+  }
+}
+
+
