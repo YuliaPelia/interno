@@ -1,10 +1,8 @@
 header {
-    padding: 20px 0 30px 0;
-    min-height: 62px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
 }
+
+
 .hamburger {
     display: none;
 }
@@ -17,15 +15,27 @@ img {
 
     border-radius: 0px;
 }
-
+.main {
+    display: flex;
+    justify-content: space-between;
+}
 nav {
-    width: 500px  ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: #ffffff;
+	z-index: 5;
 }
 ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    align-items: center;
+    width: 500px;
 }
 li {
     list-style: none;
