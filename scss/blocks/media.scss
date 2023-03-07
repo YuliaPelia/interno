@@ -29,9 +29,6 @@
     .hamburger {
         display: none;
     }
-    nav {
-        width: 400px;
-    }
     a {
         font-size: 18px;
     }
@@ -65,9 +62,6 @@
     img {
         height: 30px;
     }
-    nav {
-        width: 350px;
-    }
     a {
         font-size: 16px;
     }
@@ -86,9 +80,6 @@
 @media (max-width: 575px) {
     .container {
         width: 375px;
-    }
-    ul {
-        display: none;;
     }
     .hamburger {
         display: block;
@@ -125,6 +116,32 @@
         }
 
     }
+    .menu {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: 0.6s all;
+        &_active {
+            left: 0;
+        }
+        li {
+            padding-right: 0;
+            border: none;
+            margin: 10px 0;
+        }
+        a {
+            font-size: 20px;
+        }
+    }
+
+
     .promo {
         min-height: 470px;
         padding: 120px 0 105px 0;
