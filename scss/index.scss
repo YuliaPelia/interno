@@ -8,6 +8,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .container {
     position: relative;
     width: 1140px;
@@ -16,7 +18,8 @@
 
 
 
-
+@import 'blocks/about.scss';
+@import 'blocks/challenging.scss';
 @import 'blocks/header.scss';
 @import 'blocks/promo.scss';
 @import 'blocks/about.scss';
