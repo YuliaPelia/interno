@@ -100,7 +100,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 535px;
+  width: 525px;
 }
 .challenging__title {
   margin-top: 14px;
@@ -512,6 +512,9 @@ a:hover {
   .people__block {
     margin-top: 30px;
   }
+  .challenging__block-1 {
+    width: 485px;
+  }
 }
 @media (max-width: 991px) {
   .container {
@@ -669,5 +672,11 @@ a:hover {
   .people h2 {
     font-size: 30px;
     line-height: 40px;
+  }
+  .challenging__blocks {
+    background: url(../img/cook.png) no-repeat center cover/cover;
+  }
+  .challenging__block-3 {
+    display: none;
   }
 }/*# sourceMappingURL=index.css.map */

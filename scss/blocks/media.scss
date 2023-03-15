@@ -21,6 +21,11 @@
     .people__block {
         margin-top: 30px;
     }
+    .challenging {
+        &__block-1 {
+            width: 485px;
+        }
+    }
 }
 @media (max-width: 991px) {
     .container {
@@ -180,5 +185,11 @@
             font-size: 30px;
             line-height: 40px;
         }
+    }
+    .challenging__blocks {
+        background: url(../img/cook.png) no-repeat center cover/cover;
+    }
+    .challenging__block-3 {
+        display: none;
     }
 }
