@@ -1,0 +1,10 @@
+.cooperate {
+  min-height: 100px;
+  margin: 100px auto;
+  &__brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: none;
+  }
+}

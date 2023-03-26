@@ -670,4 +670,20 @@ a:hover {
     font-size: 30px;
     line-height: 40px;
   }
+}
+.cooperate {
+  min-height: 100px;
+  margin: 100px auto;
+}
+.cooperate__brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: none;
 }/*# sourceMappingURL=index.css.map */
