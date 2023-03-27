@@ -51,6 +51,10 @@
     .people__block {
         width: 320px;
     }
+    .cooperate__brand {
+        width: 500px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 767px) {
@@ -79,6 +83,10 @@
     }
     .about {
         padding: 50px 0 50px 0;
+    }
+    .cooperate__brand {
+        width: 315px;
+        margin: 0 auto;
     }
 
 }
