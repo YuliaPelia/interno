@@ -514,6 +514,8 @@ a:hover {
   color: #292F36;
 }
 .work__subtitle {
+  max-width: 715px;
+  margin: 0 auto;
   margin-top: 20px;
   text-align: center;
   font-family: "Jost";
@@ -684,6 +686,47 @@ a:hover {
 }
 .join_btn:hover {
   border: 2px solid #FFFFFF;
+}
+
+.social {
+  max-width: 370px;
+  min-height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.social p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* or 150% */
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+.social li img {
+  height: 18px;
+}
+.social_links {
+  width: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 1200px) {

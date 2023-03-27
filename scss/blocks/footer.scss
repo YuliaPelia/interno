@@ -1,0 +1,32 @@
+.social {
+    max-width: 370px;
+    min-height: 175px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+    p {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        /* or 150% */
+
+        letter-spacing: 0.22px;
+
+        color: #4D5053;
+    }
+    li {
+        img {
+            height: 18px;
+        }
+    }
+    &_links {
+        width: 200px;
+        justify-content: space-between;
+    }
+
+}
