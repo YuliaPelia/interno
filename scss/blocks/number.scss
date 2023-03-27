@@ -1,0 +1,40 @@
+.number {
+    background-color: #F4F0EC;
+    min-height: 475px;
+    padding: 140px 0;
+
+    &_item {
+        border-right: 2px solid #CDA274;
+		padding-right: 75px;
+        &:last-child {
+            border-right: none;
+        }
+
+        h3 {
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 85px;
+            line-height: 128px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+            letter-spacing: 1.7px;
+
+            color: #CDA274;
+        }
+        p {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+            letter-spacing: 0.22px;
+
+            color: #4D5053;
+        }
+    }
+}
