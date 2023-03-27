@@ -1,8 +1,4 @@
-* {
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Jost', sans-serif;
-}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,4 +24,6 @@
 @import 'blocks/cooperate.scss';
 @import 'blocks/work.scss';
 @import './blocks/number.scss';
+@import './blocks/join.scss';
+@import './blocks/footer.scss';
 @import 'blocks/media.scss';
