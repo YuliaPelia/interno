@@ -12,9 +12,10 @@
 
 .container {
     position: relative;
-    width: 1140px;
+    width: 1200px;
     margin: 0 auto;
 }
+
 
 
 
@@ -26,3 +27,4 @@
 @import 'blocks/people.scss';
 @import 'blocks/media.scss';
 @import 'blocks/cooperate.scss';
+@import 'blocks/work.scss';
