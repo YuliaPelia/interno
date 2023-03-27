@@ -1,0 +1,55 @@
+.join {
+    padding: 100px 0;
+    &_content {
+        min-height: 415px;
+        background: #292F36;
+        border-radius: 70px;
+        padding: 100px 0 70px 0;
+        h2 {
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 75px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+            letter-spacing: 0.22px;
+
+            color: #FFFFFF;
+        }
+        p {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            /* identical to box height, or 150% */
+            text-align: center;
+            letter-spacing: 0.22px;
+
+            color: #FFFFFF;
+        }
+    }
+    &_btn {
+        position: relative;
+        background: #CDA274;
+        border: 2px solid #CDA274;
+        box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+        border-radius: 18px;
+        height: 71px;
+        width: 241px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 30px auto;
+        cursor: pointer;
+        transition: 0.5s all;
+        img {
+            width: 30px;
+        }
+        &:hover {
+            border: 2px solid #FFFFFF;
+        }
+    }
+}
