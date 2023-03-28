@@ -688,28 +688,20 @@ a:hover {
   border: 2px solid #FFFFFF;
 }
 
-.social {
-  max-width: 370px;
-  min-height: 175px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
+.footer {
+  min-height: 400px;
+}
+.footer_content {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-bottom: 70px;
 }
-.social p {
+.footer_content_item-main {
+  max-width: 350px;
+}
+.footer_content_item-main p {
+  margin-top: 15px;
   font-family: "Jost";
   font-style: normal;
   font-weight: 400;
@@ -719,14 +711,62 @@ a:hover {
   letter-spacing: 0.22px;
   color: #4D5053;
 }
-.social li img {
-  height: 18px;
+.footer_content_item-main_social {
+  margin-top: 20px;
+  max-width: 200px;
 }
-.social_links {
-  width: 200px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.footer_content_item-main_social svg:hover {
+  color: #CDA274;
+}
+.footer_content_item {
+  width: 120px;
+}
+.footer_content_item h3 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.22px;
+  color: #292F36;
+}
+.footer_content_item-links {
+  margin-top: 20px;
+  min-height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.footer_about {
+  padding: 35px 0 50px 0;
+  max-width: 780px;
+  margin: 0 auto;
+}
+.footer_about li {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+.footer_about li:nth-child(2n) {
+  color: #CDA274;
+}
+
+.contact {
+  width: 290px;
+  min-height: 165px;
 }
 
 @media (max-width: 1200px) {
