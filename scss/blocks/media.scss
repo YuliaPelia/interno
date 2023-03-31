@@ -26,6 +26,21 @@
             width: 485px;
         }
     }
+    .work__project {
+        width: 480px;
+    }
+    .number_item {
+        padding-right: 65px;
+        h3 {
+            font-size: 70px;
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+    .contact {
+        width: 290px;
+    }
 }
 @media (max-width: 991px) {
     .container {
@@ -34,6 +49,7 @@
     .hamburger {
         display: none;
     }
+
     a {
         font-size: 18px;
     }
@@ -51,13 +67,37 @@
     .people__block {
         width: 320px;
     }
+    .work__project {
+        width: 360px;
+    }
     .cooperate__brand {
         width: 500px;
         margin: 0 auto;
     }
+    .number_item {
+        padding-right: 45px;
+        h3 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .footer_content_item-main {
+        max-width: 225px;
+    }
+    .contact {
+        width: 150px;
+    }
+    .footer_about li {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 767px) {
+    .menu {
+        width: 350px;
+    }
     .container {
         width: 540px;
     }
@@ -88,7 +128,69 @@
         width: 315px;
         margin: 0 auto;
     }
+    .challenging__block-3 img {
+        display: none;
+    }
+    .work__project {
+        width: 590px;
+    }
+    .number {
+        min-height: 140px;
+        padding: 70px 0;
+    }
+    .number_item {
+        padding-right: 20px;
+        h3 {
+            font-size: 40px;
+            line-height: 2;
+        }
+    }
+    .join {
+        padding: 60px 0;
+    }
+    .footer_content {
+        display: block;
+        &_items {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &_item {
+            max-width: 300px;
+            h3 {
+                font-size: 20px;
+            }
+            a {
+                font-size: 14px;
+            }
+            &-links {
+                min-height: 170px;
+            }
+            &-main {
+                max-width: 320px;
+                margin: 0 auto;
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+                p {
+                    text-align: center;
+                    font-size: 15px;
+                }
+                &_social {
+                    margin: 10px auto;
+                    max-width: 150px;
+                }
+            }
+        }
+    }
+    .contact {
+        width: 210px;
+    }
 
+    .footer_about li {
+        font-size: 14px;
+    }
 }
 @media (max-width: 575px) {
     .container {
@@ -199,5 +301,45 @@
     }
     .challenging__block-3 {
         display: none;
+    }
+    .join {
+        padding: 50px 0;
+    }
+    .join_content {
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .join_btn {
+        height: 55px;
+        width: 185px;
+    }
+    .number {
+        &_item {
+            padding-right: 12px;
+            padding-left: 8px;
+
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+    .contact {
+        width: 130px;
+    }
+    .footer_content_item {
+        margin: 10px;
+    }
+    .footer_about li {
+        font-size: 10px;
+    }
+    .footer_content_item a {
+        font-size: 11px;
     }
 }

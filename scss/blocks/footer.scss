@@ -1,0 +1,78 @@
+.footer {
+    min-height: 400px;
+    &_content {
+        align-items: flex-start;
+        margin-bottom: 70px;
+        &_item-main {
+            max-width: 350px;
+            p {
+                margin-top: 15px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 33px;
+                /* or 150% */
+
+                letter-spacing: 0.22px;
+
+                color: #4D5053;
+            }
+            &_social {
+                margin-top: 20px;
+                max-width: 200px;
+                svg {
+                    &:hover {
+                        color: #CDA274;
+                    }
+                }
+
+            }
+        }
+        &_item {
+            width: 120px;
+            h3 {
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-size: 25px;
+                line-height: 38px;
+                /* identical to box height, or 150% */
+
+                letter-spacing: 0.22px;
+
+                color: #292F36;
+            }
+            &-links {
+                margin-top: 20px;
+                min-height: 250px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start
+            }
+        }
+    }
+    &_about {
+        padding: 35px 0 50px 0;
+        max-width: 780px;
+        margin: 0 auto;
+        li {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            /* identical to box height, or 150% */
+    
+            text-align: center;
+            letter-spacing: 0.22px;
+    
+            color: #4D5053;
+            &:nth-child(2n) {
+                color: #CDA274;            }
+        }
+    }
+}
+.contact {
+    width: 290px;
+    min-height: 165px;
+}

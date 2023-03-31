@@ -21,6 +21,8 @@
   color: #292F36;
 }
 .work__subtitle {
+  max-width: 715px;
+  margin: 0 auto;
   margin-top: 20px;
   text-align: center;
   font-family: "Jost";
