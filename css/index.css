@@ -697,6 +697,12 @@ a:hover {
           align-items: flex-start;
   margin-bottom: 70px;
 }
+.footer_content_items {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 600px;
+}
 .footer_content_item-main {
   max-width: 350px;
 }

@@ -3,6 +3,10 @@
     &_content {
         align-items: flex-start;
         margin-bottom: 70px;
+        &_items {
+            align-items: flex-start;
+            width: 600px;
+        }
         &_item-main {
             max-width: 350px;
             p {
